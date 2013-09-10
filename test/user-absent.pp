@@ -1,3 +1,0 @@
-user {'katie':
-	ensure => absent,
-}
