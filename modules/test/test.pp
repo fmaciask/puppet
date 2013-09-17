@@ -1,1 +1,0 @@
-notify { "Ola k ase", }
