@@ -6,13 +6,13 @@ class mysql {
 		ensure => installed,
 	}
 	file { '/etc/mysql/my.cnf' : 
-		source => 'puppet:///modules/mysql/files',
+		source => '/etc/puppet/modules/mysql/files',
 		owner => 'root',
 		group => 'root',
 		mode => '640',
 		require => Package['mysql-server'],
 	}
-	service { 'sql':
+	service { 'mysql':
 		ensure => running,
 		enable => true,
 		hasstatus => true,
