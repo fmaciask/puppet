@@ -19,4 +19,3 @@ class mysql {
 		hasrestart => true,
 	}
 }
-include mysql
