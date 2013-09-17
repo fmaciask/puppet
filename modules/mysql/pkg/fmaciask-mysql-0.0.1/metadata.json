@@ -1,0 +1,21 @@
+{
+  "name": "fmaciask-mysql",
+  "version": "0.0.1",
+  "source": "http://github.com/fmaciask/puppet",
+  "author": "fmaciask",
+  "license": "Apache License, Version 2.0",
+  "summary": "Puppet MYSQL management module",
+  "description": "This module can be used for basic MYSQL Management",
+  "project_page": "UNKNOWN",
+  "dependencies": [
+
+  ],
+  "types": [
+
+  ],
+  "checksums": {
+    "Modulefile": "7245294f828cffaa648b64da1eca3cda",
+    "manifests/init.pp": "22a730794fe1d57cab39311022cb2cf6",
+    "test/init.pp": "40b1a3b89ca2582929ca6edcbaabd403"
+  }
+}
