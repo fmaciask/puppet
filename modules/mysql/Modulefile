@@ -1,6 +1,0 @@
-name    'fmaciask-mysql'
-version '0.0.1'
-source 'http://github.com/fmaciask/puppet'
-author 'fmaciask'
-summary 'Puppet MYSQL management module'
-description 'This module can be used for basic MYSQL Management'
