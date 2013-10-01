@@ -1,5 +1,5 @@
 # Mysql module for Puppet
-
+# This module is actually a copy from puppetlabs
 [![Build Status](https://travis-ci.org/puppetlabs/puppetlabs-mysql.png?branch=master)](https://travis-ci.org/puppetlabs/puppetlabs-mysql)
 
 This module manages mysql on Linux (RedHat/Debian) distros. A native mysql provider implements database resource type to handle database, database user, and database permission.
@@ -128,7 +128,7 @@ The custom resources can be used in any other manifests:
     }
 
     mysql_user { 'bob@localhost':
-      password_hash => mysql_password('foo')
+	      password_hash => mysql_password('foo')
     }
 
     database_grant { 'user@localhost/database':
