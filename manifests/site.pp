@@ -1,3 +1,3 @@
 # /etc/puppet/manifest/site.pp
-include nginx
+#include nginx
 include mysql
