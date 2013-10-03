@@ -3,3 +3,4 @@
 #include mysql
 #include gcc
 include cmake
+include hiawatha
