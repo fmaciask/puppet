@@ -2,5 +2,5 @@
 #include nginx
 #include mysql
 #include gcc
-include cmake
+#include cmake
 include hiawatha
