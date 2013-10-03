@@ -1,5 +1,6 @@
 class hiawatha::install {
-	package { "hiawatha":
-		ensure => "installed",
-	}
+	#package { "hiawatha":
+	#	ensure => "installed",
+	#}
+	exec {  }
 }
