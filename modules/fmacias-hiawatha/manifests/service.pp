@@ -5,7 +5,7 @@
 # This manifest manages service status.
 #
 class hiawatha::service {
-	service { "hiawatha":
+	service { 'hiawatha':
 		ensure => running,
 		enable => true,
 		hasstatus => true,
