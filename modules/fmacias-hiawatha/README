@@ -2,6 +2,9 @@ hiawatha
 
 This is the hiawatha module.
 
+Currently, installation works fine, but MUST be customized if you install in a diferent system.
+Starting service isn't working yet, but I'm working on it. (Any help will be appreciate)
+
 License
 -------
 This license of Hiawatha belongs completely to Hugo Leisink.

@@ -8,6 +8,9 @@ class hiawatha::service {
 	service { 'hiawatha':
 		ensure => running,
 		enable => true,
-		hasstatus => true,
+#		hasstatus => true,
+		status => 0,
+		start => 'service hiawatha start',
+		stop => 'service hiawatha stop',
 	}
 }
