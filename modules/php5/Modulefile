@@ -1,5 +1,5 @@
 name    'fmacias-php5'
-version '0.0.0'
+version '0.0.1'
 source 'php.net'
 author 'php5
 license 'PHP.NET License, Version 5.5.4'
