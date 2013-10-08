@@ -13,9 +13,14 @@ class hiawatha::service {
 #		start => 'service hiawatha start',
 #		stop => 'service hiawatha stop',
 #	}
-	exec { 'execute hiawatha service':
-		command => "/usr/bin/service hiawatha start",
+	if $lsbdistid == 'Ubuntu' {
+		exec { 'execute hiawatha service':
+				command => "/usr/bin/service hiawatha start",
+		}
 	}
+	else {
+		exec { "/etc/init.d/hiawatha start": }
+	} 
 }
 
 include hiawatha::service
