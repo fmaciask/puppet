@@ -1,0 +1,32 @@
+{
+  "name": "fmacias-hiawatha",
+  "version": "0.0.1",
+  "source": "https://github.com/fmaciask/puppet/tree/master/modules/hiawatha",
+  "author": "fmacias",
+  "license": "Hiawatha License",
+  "summary": "Manages the installation of Hiawatha webserver and runs the service",
+  "description": "Hiawatha webserver",
+  "project_page": "UNKNOWN",
+  "dependencies": [
+
+  ],
+  "types": [
+
+  ],
+  "checksums": {
+    "Modulefile": "c291de596f559accdd51378104699dcb",
+    "README": "a70d9a5a83a7fbc34a29bddcbba4141c",
+    "files/hiawatha_9.2_amd64.deb": "7b8b77e09352fd3ba44bd141c0b0db88",
+    "files/hiawatha_9.2_i386.deb": "1b30d8ecb4ac34b7f573ee521b52ef84",
+    "files/hiawatha_9.2_i686.deb": "0dc7b7565e13c8870074f0c20b4f2e31",
+    "manifests/config.pp": "b1fa9341e093262539e1fcb12d8a8336",
+    "manifests/init.pp": "d25a19050684eae5a4cceef7843345f4",
+    "manifests/install.pp": "2f6b9299d8346fa899a7edc8bedbdd38",
+    "manifests/params.pp": "2637bab1443c66c23bf137b1ea53a35e",
+    "manifests/service.pp": "e681791db55f7acf7dc4ebccdb3b1fda",
+    "metadata_backup": "7ed524128f41f29048e52524d68b4501",
+    "templates/hiawatha.conf.erb": "07ac4d5e2eff5119d737b4cb3a44f3af",
+    "tests/init.pp": "bfb8ed73b2206a315deafb3e7e9e2f30",
+    "tests/service.pp": "b4f150ca37aeeec10b1019e02ca13297"
+  }
+}
