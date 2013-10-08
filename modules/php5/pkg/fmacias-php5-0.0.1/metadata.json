@@ -1,0 +1,26 @@
+{
+  "name": "fmacias-php5",
+  "version": "0.0.1",
+  "source": "php.net",
+  "author": "php5",
+  "license": "Apache License, Version 2.0",
+  "summary": "PHP 5.4.4 Installation",
+  "description": "PHP 5.4.4 Installation and management",
+  "project_page": "UNKNOWN",
+  "dependencies": [
+
+  ],
+  "types": [
+
+  ],
+  "checksums": {
+    "Modulefile": "fece0b46b4a99d81f7c927bb8f0563df",
+    "README": "cdee7155d5961fc09f1c705485c333da",
+    "files/php-5.5.4.tar.gz": "c19c4833585b804f4d01445772124969",
+    "manifests/init.pp": "fa6e16832f6509e069275e9776e65d78",
+    "manifests/install.pp": "84d408cf5d8549dc5648de422ce1ecca",
+    "manifests/service.pp": "a17f174e053e66c4cbbf3c900f6c3c4c",
+    "tests/init.pp": "d7e9391734fdf3b5670b62d12fed52dc",
+    "tests/service.pp": "a17f174e053e66c4cbbf3c900f6c3c4c"
+  }
+}

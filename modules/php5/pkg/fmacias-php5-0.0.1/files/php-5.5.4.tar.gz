@@ -1,0 +1,227 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+                      "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+ <title>PHP: Manual Quick Reference</title>
+ <style type="text/css" media="all">
+  @import url("/styles/site.css");
+  @import url("/styles/mirror.css");
+  
+ </style>
+ <!--[if IE]><![if gte IE 6]><![endif]-->
+  <style type="text/css" media="print">
+   @import url("/styles/print.css");
+  </style>
+ <!--[if IE]><![endif]><![endif]-->
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+ <link rel="shortcut icon" href="/favicon.ico" />
+ <link rel="canonical" href="//php.net/quickref.php" />
+ <script type="text/javascript" src="/userprefs.js"></script>
+ <base href="http://es1.php.net/manual-lookup.php" />
+ <meta name="robots" content="noindex" />
+</head>
+<body>
+
+<div id="head-beta-warning">
+  <a id="beta-warning" href="?setbeta=1&amp;beta=1">
+    <span class="dismiss">dismiss</span>
+    <span class="blurb">Step into the future! Click here to switch to the beta php.net site</span>
+  </a>
+</div>
+
+<div id="headnav">
+ <a href="/" rel="home"><img src="/images/php.gif"
+ alt="PHP" width="120" height="67" id="phplogo" /></a>
+ <div id="headmenu">
+  <a href="/downloads.php">downloads</a> |
+  <a href="/docs.php">documentation</a> |
+  <a href="/FAQ.php">faq</a> |
+  <a href="/support.php">getting help</a> |
+  <a href="/mailing-lists.php">mailing lists</a> |
+  <a href="/license">licenses</a> |
+  <a href="https://wiki.php.net/">wiki</a> |
+  <a href="https://bugs.php.net/">reporting bugs</a> |
+  <a href="/sites.php">php.net sites</a> |
+  <a href="/conferences/">conferences</a> |
+  <a href="/my.php">my php.net</a>
+ </div>
+</div>
+
+<div id="headsearch">
+ <form method="post" action="/search.php" id="topsearch">
+  <p>
+   <span title="Keyboard shortcut: Alt+S (Win), Ctrl+S (Apple)">
+    <span class="shortkey">s</span>earch for
+   </span>
+   <input type="text" name="pattern" value="" size="30" accesskey="s" title="Search"/>
+   <span>in the</span>
+   <select name="show">
+    <option value="all"      >all php.net sites</option>
+    <option value="local"    >this mirror only</option>
+    <option value="quickref" selected="selected">function list</option>
+    <option value="manual"   >online documentation</option>
+    <option value="bugdb"    >bug database</option>
+    <option value="news_archive">Site News Archive</option>
+    <option value="changelogs">All Changelogs</option>
+    <option value="pear"     >just pear.php.net</option>
+    <option value="pecl"     >just pecl.php.net</option>
+    <option value="talks"    >just talks.php.net</option>
+    <option value="maillist" >general mailing list</option>
+    <option value="devlist"  >developer mailing list</option>
+    <option value="phpdoc"   >documentation mailing list</option>
+   </select>
+   <input type="image"
+          src="/images/small_submit_white.gif"
+          class="submit" alt="search" />
+   <input type="hidden" name="lang" value="es" />
+  </p>
+ </form>
+</div>
+
+<div id="layout_1">
+ <div id="content" class=".">
+
+<h1>Perform an alternative search here</h1>
+<div id="cse" style="width: 100%;">Loading</div>
+<script src="http://www.google.com/jsapi" type="text/javascript"></script>
+<script type="text/javascript"> 
+  google.load('search', '1', {language : 'en', style : google.loader.themes.MINIMALIST});
+  google.setOnLoadCallback(function() {
+    var customSearchOptions = {};
+    var customSearchControl = new google.search.CustomSearchControl(
+      '011570197911755000456:fip9wopfz_u', customSearchOptions);
+    customSearchControl.setLinkTarget(google.search.Search.LINK_TARGET_SELF);
+    customSearchControl.setResultSetSize(google.search.Search.FILTERED_CSE_RESULTSET);
+    var options = new google.search.DrawOptions();
+    options.setAutoComplete(true);
+    customSearchControl.draw('cse', options);
+    customSearchControl.execute("get\/php-5.5.4.tar.gz");  }, true);
+</script>
+
+<h1>PHP Function List</h1>
+
+
+<p>
+ <b>get/php-5.5.4.tar.gz</b> doesn't exist. Closest matches:
+</p>
+
+<!-- result list start -->
+<ul id="quickref_functions">
+<li><a href="/manual/es/function.gethostbyaddr.php">gethostbyaddr</a></li>
+<li><a href="/manual/es/function.id3-get-tag.php">id3_get_tag</a></li>
+<li><a href="/manual/es/function.get-headers.php">get_headers</a></li>
+<li><a href="/manual/es/function.m-getheader.php">m_getheader</a></li>
+<li><a href="/manual/es/function.rpm-get-tag.php">rpm_get_tag</a></li>
+<li><a href="/manual/es/function.gethostname.php">gethostname</a></li>
+<li><a href="/manual/es/function.getopt.php">getopt</a></li>
+<li><a href="/manual/es/function.ifx-get-char.php">ifx_get_char</a></li>
+<li><a href="/manual/es/function.getimagesize.php">getimagesize</a></li>
+<li><a href="/manual/es/function.func-get-arg.php">func_get_arg</a></li>
+<li><a href="/manual/es/function.get-meta-tags.php">get_meta_tags</a></li>
+<li><a href="/manual/es/function.gethostbyname.php">gethostbyname</a></li>
+<li><a href="/manual/es/function.func-get-args.php">func_get_args</a></li>
+<li><a href="/manual/es/function.hw-getparents.php">hw_getparents</a></li>
+<li><a href="/manual/es/function.fann-get-rprop-delta-zero.php">fann_get_rprop_delta_zero</a></li>
+<li><a href="/manual/es/function.escapeshellarg.php">escapeshellarg</a></li>
+<li><a href="/manual/es/function.gethostbynamel.php">gethostbynamel</a></li>
+<li><a href="/manual/es/function.ingres-prepare.php">ingres_prepare</a></li>
+<li><a href="/manual/es/function.pg-fetch-array.php">pg_fetch_array</a></li>
+<li><a href="/manual/es/class.evprepare.php">evprepare</a></li>
+</ul>
+<!-- result list end -->
+<br clear="left"/>
+
+<h1>Other forms of search</h1>
+
+<p>
+To search the string "<b>get/php-5.5.4.tar.gz</b>" using other options, try searching:
+</p>
+
+<ul id="quickref_other">
+ <li><a href="search.php?show=manual&amp;pattern=get%2Fphp-5.5.4.tar.gz">Only the documentation</a></li>
+ <li><a href="search.php?show=local&amp;pattern=get%2Fphp-5.5.4.tar.gz">Only this mirror</a></li>
+ <li><a href="search.php?show=wholesite&amp;pattern=get%2Fphp-5.5.4.tar.gz">The entire php.net domain</a></li>
+ <li><a href="search.php?show=pear&amp;pattern=get%2Fphp-5.5.4.tar.gz">pear.php.net</a></li>
+ <li><a href="search.php?show=pecl&amp;pattern=get%2Fphp-5.5.4.tar.gz">pecl.php.net</a></li>
+ <li><a href="http://bugs.php.net/search.php?cmd=Display+Bugs&status=All&bug_type=Any&search_for=get%2Fphp-5.5.4.tar.gz">The Bug DB</a></li>
+ <li><a href="http://marc.info/?r=1&w=2&q=b&l=php-general&s=get%2Fphp-5.5.4.tar.gz">php-general mailing list</a></li>
+ <li><a href="http://marc.info/?r=1&w=2&q=b&l=php-internals&s=get%2Fphp-5.5.4.tar.gz">Internals mailing list</a></li>
+ <li><a href="http://marc.info/?r=1&w=2&q=b&l=phpdoc&s=get%2Fphp-5.5.4.tar.gz">Documentation mailing list</a></li>
+</ul>
+<br clear="left"/>
+<p>
+ For a quick overview over all documented PHP functions,
+ <a href="quickref.php">click here</a>.
+</p>
+
+
+ </div>
+ <div class="cleaner">&nbsp;</div>
+</div>
+
+<div id="footnav">
+   <a href="/source.php?url=/quickref.php">show source</a> |
+ <a href="/credits.php">credits</a> |
+ <a href="/sitemap.php">sitemap</a> |
+ <a href="/contact.php">contact</a> |
+ <a href="/contact.php#ads">advertising</a> |
+ <a href="/mirrors.php">mirror sites</a>
+</div>
+
+<div id="pagefooter">
+ <div id="copyright">
+  <a href="/copyright.php">Copyright &copy; 2001-2013 The PHP Group</a><br />
+  All rights reserved.
+ </div>
+
+ <div id="thismirror">
+  <a href="/mirror.php">This mirror</a> generously provided by:
+  <a href="http://www.grn.es/classic">GRN Serveis Telematics</a><br />
+  Last updated: Tue Oct  8 15:41:40 2013 UTC
+ </div>
+</div>
+
+<script type="text/javascript">
+jQuery(document).ready(function($) {
+    function showBetaWarning() {
+        return document.cookie.indexOf("BetaWarning=") == -1;
+    }
+
+    // ----- BETA WARNING CODE -----
+    var headBetaWarning = $('#head-beta-warning');
+
+    // Wire up the beta warning.
+    headBetaWarning.find('.dismiss').click(function(e) {
+        e.preventDefault();
+        $('body').css('margin-top', 0);
+        headBetaWarning.slideUp("fast");
+
+        // Hide it for a month by default.
+        var expiry = new Date();
+        expiry.setTime(expiry.getTime() + (30 * 24 * 60 * 60 * 1000));
+
+        document.cookie = "BetaWarning=off; expires=" + expiry.toGMTString() + "; path=/";
+    });
+
+    if (showBetaWarning()) {
+        headBetaWarning.show();
+        $('body').css('margin-top', '25px');
+        $('#beta-warning').slideDown(300, function() {
+           $(this).find('.blurb').fadeIn('slow');
+        });
+    }
+
+});
+</script>
+
+<!--[if IE 6]>
+<script type="text/javascript">
+    var IE6UPDATE_OPTIONS = {
+        icons_path: "/ie6update/images/"
+    }
+</script>
+<script type="text/javascript" src="/ie6update/ie6update.js"></script>
+<![endif]-->
+
+</body>
+</html>
