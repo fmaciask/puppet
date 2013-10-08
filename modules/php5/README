@@ -1,0 +1,13 @@
+PHP 5.5.4 
+
+This is the module for Puppet that installs PHP 5.5.4.
+I didn't consider any webserver as default, so it's a generic installation, so it should allow anyone to install Apache, Nginx or anyone.
+
+License
+-------
+PHP 5.5.4 license doesn't belong to me, and I don't change the source, only I make a module for it to be installed.
+
+Contact
+-------
+info@forlidar.com
+

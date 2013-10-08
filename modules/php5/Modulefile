@@ -1,0 +1,8 @@
+name    'fmacias-php5'
+version '0.0.0'
+source 'php.net'
+author 'php5
+license 'PHP.NET License, Version 5.5.4'
+summary 'PHP 5.4.4 Installation'
+description 'PHP 5.4.4 Installation and management'
+
