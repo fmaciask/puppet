@@ -1,4 +1,6 @@
 # /etc/puppet/manifest/site.pp
-include nginx
+#include nginx
 #include mysql
-
+#include gcc
+#include cmake
+include hiawatha

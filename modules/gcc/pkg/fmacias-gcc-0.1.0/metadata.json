@@ -1,0 +1,24 @@
+{
+  "name": "fmacias-gcc",
+  "version": "0.1.0",
+  "source": "UNKNOWN",
+  "author": "fmacias",
+  "license": "Apache License, Version 2.0",
+  "summary": "UNKNOWN",
+  "description": "UNKNOWN",
+  "project_page": "UNKNOWN",
+  "dependencies": [
+
+  ],
+  "types": [
+
+  ],
+  "checksums": {
+    "Modulefile": "5b9fe5130d11737c8668feaea6e27bfb",
+    "README": "caab5f288a2d9d538620382b59e9d719",
+    "manifests/init.pp": "d24219280d879da168148ddafa4b98a1",
+    "manifests/params.pp": "184029d70f12fe707474e879d31fa752",
+    "tests/init.pp": "3c66ee57ffd3c861be1dddc3c6c8502d",
+    "tests/params.pp": "34196cd17ebe3b0665a909625dc384f7"
+  }
+}

@@ -1,0 +1,5 @@
+name    'fmacias-gcc'
+version '0.0.1'
+author 'fmacias'
+summary 'UNKNOWN'
+description 'Install gcc to your Ubuntu'

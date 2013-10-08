@@ -1,0 +1,15 @@
+gcc
+
+This is the gcc module.
+
+License
+-------
+
+
+Contact
+-------
+info@forlidar.com
+
+Support
+-------
+This is a basic module that all it does is install gcc to Ubuntu 12.04 server
