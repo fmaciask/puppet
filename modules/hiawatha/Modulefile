@@ -1,7 +1,8 @@
-name    'fmaciasr-hiawatha'
-version '1.0.0'
-source 'https://github.com/fmaciask/puppet/tree/master/modules/fmacias-hiawatha'
+#Required
+name    'fmacias-hiawatha'
+version '0.0.1'
+source 'https://github.com/fmaciask/puppet/tree/master/modules/hiawatha'
 author 'fmacias'
 license 'Hiawatha License'
 summary 'Manages the installation of Hiawatha webserver and runs the service'
-
+description 'Hiawatha webserver'
