@@ -4,4 +4,5 @@
 #
 class hiawatha::params {
 	$hwt_confdir	= '/etc/hiawatha'
+	$hwt_templates	= '${confdir}/modules/hiawatha/templates'
 }
