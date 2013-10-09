@@ -20,6 +20,9 @@ class hiawatha::service {
 	exec { "hiawatha":
 		path => $path,
 	}
+	package { "hiawatha":
+		ensure => true,		
+	}
 }
 
 include hiawatha::service

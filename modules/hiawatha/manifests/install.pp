@@ -6,5 +6,6 @@ class hiawatha::install {
 		
 		path => "/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
 		creates => "/usr/sbin/hiawatha",
+		subcribe => Package['hiawatha'],
 	}
 }
