@@ -4,4 +4,5 @@ include mysql
 #include gcc
 #include cmake
 #include hiawatha
-include smartmontools
+#include smartmontools
+include iftop
