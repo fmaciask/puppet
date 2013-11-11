@@ -4,6 +4,10 @@ class hiawatha::config {
 	file { '${hiawatha::params::$hwt_confdir}/hiawatha.conf':
 		ensure => file,
 		require => Package['hiawatha'],
-		content => template('puppet:///modules/hiawatha/templates/hiawatha.conf.erb'),
+#		content => template('hiawatha/templates/hiawatha.conf.erb'),
+		source  => "puppet:///modules/hiawatha/templates/hiawatha.conf.erb",
+
+#		content  => template("nagios_agents/nrpe_checks/check_puppet_agent.sh.erb"),
+
 	}
 }
