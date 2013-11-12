@@ -17,11 +17,13 @@ class hiawatha::service {
 #	} 
 #	
 # hiawatha webserver can be run just executing the name of the service
-	exec { "hiawatha":
-		path => $path,
-	}
 	package { "hiawatha":
-		ensure => true,		
+		ensure => installed,
+#		enable => true,
+	}
+	service { "hiawatha":
+		ensure => running,
+	
 	}
 }
 

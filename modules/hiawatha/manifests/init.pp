@@ -11,6 +11,6 @@ class hiawatha {
 	include hiawatha::params
 	include hiawatha::config
 	include hiawatha::service
-	include hiawatha::install
+#	include hiawatha::install
 
 }
