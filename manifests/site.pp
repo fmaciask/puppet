@@ -6,3 +6,4 @@ include cmake
 #include hiawatha
 include smartmontools
 include iftop
+include postgresql
