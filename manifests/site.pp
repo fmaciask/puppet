@@ -7,3 +7,4 @@ include cmake
 include smartmontools
 include iftop
 include postgresql
+include nagios
