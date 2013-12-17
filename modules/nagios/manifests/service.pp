@@ -13,7 +13,7 @@ class nagios::service {
 	}
 	service { "nagios3":
 		ensure => running,
-#		require => File['/etc/nagios3/nagios.cfg']
+		require => File['/etc/nagios3/nagios.cfg']
 	}
 	
 }
