@@ -6,7 +6,7 @@ include cmake
 #include hiawatha
 include smartmontools
 include iftop
-include postgresql
+#include postgresql
 include nagios
 include postfix
 include psad
