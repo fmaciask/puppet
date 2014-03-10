@@ -7,6 +7,7 @@ include cmake
 include smartmontools
 include iftop
 #include postgresql
-include nagios
-include postfix
+#include nagios
+#include postfix
 include psad
+include vlc

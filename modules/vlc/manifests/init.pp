@@ -4,9 +4,9 @@
 #
 #   include vlc
 class vlc (
-  $version = '2.0.3'
+  $version = '2.0.8'
 ) {
-  package { 'VLC':
+  package { 'vlc':
 #    provider => 'appdmg',
 #    source   => "http://sourceforge.net/projects/vlc/files/${version}/macosx/vlc-${version}.dmg",
 	ensure => installed,
