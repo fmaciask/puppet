@@ -10,6 +10,7 @@ class nagios::service {
 		ensure => present,
 		require => Package['nagios3'],
 		notify => Service['nagios3'],
+		
 	}
 	service { "nagios3":
 		ensure => running,
