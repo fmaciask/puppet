@@ -8,4 +8,5 @@ class generic {
  #   ensure => present,
   #  }
 
+include smartmontools
 }

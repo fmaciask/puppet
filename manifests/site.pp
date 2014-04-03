@@ -5,10 +5,10 @@ include nginx
 include gcc
 include cmake
 #include hiawatha
-include smartmontools
+#include smartmontools
 include iftop
 #include postgresql
 #include nagios
 #include postfix
-include psad
-include vlc
+#include psad
+#include vlc
