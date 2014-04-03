@@ -9,4 +9,8 @@ class psad {
   }
 
   class { 'psad::service': }	
+
+	include psad::package
+	include psad::config
+	include psad::service
 }
