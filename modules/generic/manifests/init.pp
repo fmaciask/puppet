@@ -4,9 +4,14 @@ class generic {
     package {  "links":
         ensure => installed,
     }
-#    package { [ "lame", "poc-streamer" , "alsa-utils" ]:
- #   ensure => present,
-  #  }
 
+# Modules included
+include cowsay
 include smartmontools
+#include mysql
+include gcc
+include cmake
+#include hiawatha
+include iftop
+#include psad
 }
