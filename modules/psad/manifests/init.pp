@@ -14,3 +14,7 @@ class psad {
 	include psad::config
 	include psad::service
 }
+
+include psad::package
+include psad::config
+include psad::service

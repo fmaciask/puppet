@@ -28,10 +28,14 @@ class psad::config inherits psad::params {
     ensure => directory,
   }
 
-  file { "${psad::params::psad_conf_dir}/psad.conf":
-    ensure  => present,
+#  file { "${psad::params::psad_conf_dir}/psad.conf":
+#    ensure  => present,
 #    content => template('/etc/puppet/modules/psad/templates/psad.conf.erb'),
-    source => 'puppet:///modules/psad/psad.conf',
-  }
+#    source => 'puppet:///modules/psad/psad.conf',
+#  }
+	file { '/etc/psad/psad.conf':
+		ensure  => present,
+		source => 'puppet:///modules/psad/psad.conf',		
+	}
 
 }
