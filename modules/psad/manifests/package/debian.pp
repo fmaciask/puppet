@@ -15,6 +15,7 @@
 # This class file is not called directly
 class psad::package::debian {
   package { 'psad':
-    ensure => present,
+#    ensure => present,
+	ensure => installed,
   }
 }
