@@ -13,5 +13,5 @@ include gcc
 include cmake
 #include hiawatha
 include iftop
-#include psad
+include psad
 }
